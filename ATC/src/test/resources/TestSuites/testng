@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ATC TestSuites">
+
+    <parameter name="test3Url" value="http://test3.autotrader.com/" />
+
+    <test name="ATC TestSuites on Firefox">
+        <classes>
+            <class name="zTemp.Nghia" />
+        </classes>
+    </test>
+
+</suite>

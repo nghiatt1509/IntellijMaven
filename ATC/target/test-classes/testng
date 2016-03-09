@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchFunnelTests" thread-count="4" parallel="classes">
+    <!--
+    <parameter name="baseUrl" value="http://cs6.qa.autotrader.com/" />
+    <parameter name="testGroup" value="groupA" />
+    -->
+
+    <test name="Local">
+        <classes>
+            <class name="zTemp.Nghia" />
+        </classes>
+    </test>
+
+</suite>
