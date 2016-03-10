@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ATC TestSuites" duration-ms="39942" started-at="2016-03-10T18:36:11Z" finished-at="2016-03-10T18:36:51Z">
+    <groups>
+    </groups>
+    <test name="ATC TestSuites on Firefox" duration-ms="39942" started-at="2016-03-10T18:36:11Z" finished-at="2016-03-10T18:36:51Z">
+      <class name="zTemp.Nghia">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:zTemp.Nghia@d085f8]" name="preCondition" is-config="true" duration-ms="9254" started-at="2016-03-11T01:36:11Z" finished-at="2016-03-11T01:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="findYourCarFromHomePage()[pri:1, instance:zTemp.Nghia@d085f8]" name="findYourCarFromHomePage" duration-ms="28860" started-at="2016-03-11T01:36:20Z" description="User can search a car from Home Page" finished-at="2016-03-11T01:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findYourCarFromHomePage -->
+        <test-method status="PASS" signature="posCondition()[pri:0, instance:zTemp.Nghia@d085f8]" name="posCondition" is-config="true" duration-ms="1810" started-at="2016-03-11T01:36:49Z" finished-at="2016-03-11T01:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posCondition -->
+      </class> <!-- zTemp.Nghia -->
+    </test> <!-- ATC TestSuites on Firefox -->
+  </suite> <!-- ATC TestSuites -->
+</testng-results>
